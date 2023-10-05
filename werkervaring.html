@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mijn CV - Werkervaring</title>
+    <style>
+        /* Basisstijl voor de navigatielinks */
+        .navbar {
+            background-color: #1a1a1a;
+            overflow: hidden;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            color: #ffffff;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a:hover {
+            background-color: #be9e44;
+            color: #1a1a1a;
+        }
+
+        /* Stijl voor de actieve navigatielink */
+        .active {
+            background-color: #be9e44;
+            color: #1a1a1a;
+        }
+
+        /* Algemene stijl voor de pagina-inhoud */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #e5d9b6;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #1a1a1a;
+            color: #ffffff;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+        }
+
+        header img {
+            max-width: 100px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 36px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            max-width: 800px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #1a1a1a;
+        }
+
+        p {
+            margin: 10px 0;
+        }
+
+        ul {
+            list-style-type: square;
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        background-color: #1a1a1a;
+        color: #ffffff;
+        text-align: center;
+        padding: 10px 0;
+        }
+
+        .indented-text {
+        text-indent: 600px; /* Hier kun je de gewenste inspringing in pixels, em, rem, of een andere eenheid instellen */
+        }
+
+        .wrapper {
+         display: flex;
+        }
+
+        .container {
+          flex: 1;
+          padding: 20px;
+          background-color: #f0f0f0;
+        }
+
+        .image {
+          flex: 1;
+          padding: 20px;
+        }
+
+        .container {
+          display: flex;
+          align-items: center; /* Verticaal centreren */
+        }
+
+        .image img {
+          width: 200px;
+          height: 200px;
+          margin-left: 20px; /* Voeg ruimte toe tussen de tekst en de afbeelding */
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <img src="md.png">
+        <h1>Mandy Damsteegt</h1>
+        <p>      </p>
+    </header>
+
+    <div class="navbar">
+        <a href="index.html" class="nav-link">Persoonlijke gegevens</a>
+        <a href="werkervaring.html" class="nav-link active">Werkervaring</a>
+        <a href="nevenactiviteiten.html" class="nav-link ">Nevenactiviteiten</a>
+        <a href="opleidingen.html" class="nav-link">Opleidingen</a>
+        <a href="vaardigheden.html" class="nav-link">Vaardigheden</a>
+    </div>
+
+<div class="wrapper">
+  <div class="container">
+    <div class="job">
+      <strong>Technisch Assistent - Universiteit van Amsterdam</strong>
+      <p class="indent-text">2022 - heden</p>
+      <p>
+        Als technisch assistent bij de UvA ondersteun ik de technische aspecten van de academische omgeving en zorg ik voor een optimale werking van systemen. Met mijn ervaring in het lesgeven van statistische vakken draag ik bij aan een effectieve onderwijsomgeving.
+      </p>
+    </div>
+    <div class="image">
+      <img src="uva.png" alt="UvA Logo" width="200" height="200">
+    </div>
+  </div>
+</div>
+        <div class="container">
+    <div class="job">
+      <strong>Verkoopmedewerker - Petsplace Boerenbond Muiden</strong>
+      <p class="indent-text">Juni 2023 - heden</p>
+      <p>
+        Als verkoopmedewerker bij Pets Place assisteer je klanten bij het vinden
+          van producten voor hun huisdieren, handel je transacties af en zorg je
+          voor een nette winkel. Je geeft deskundig advies over huisdierenverzorging
+          en -voeding, en draagt zorg voor het welzijn van dieren in de winkel.
+          Je streeft naar het behalen van verkoopdoelen en handelt klachten af.
+          Klantgerichtheid en liefde voor huisdieren zijn cruciaal voor deze rol.
+      </p>
+    </div>
+    <div class="image">
+      <img src="pp.png" alt="PP Logo" width="200" height="200">
+    </div>
+  </div>
+
+
+
+    <footer>
+        &copy; 2023 Mandy Damsteegt - CV
+    </footer>
+</body>
+</html>
